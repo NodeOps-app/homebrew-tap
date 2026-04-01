@@ -4,8 +4,6 @@ class Createos < Formula
   version "0.0.1"
   license "MIT"
 
-  bottle :unneeded
-
   on_macos do
     on_arm do
       url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.1/createos-darwin-arm64"
