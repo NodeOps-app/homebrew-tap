@@ -6,25 +6,25 @@ class Createos < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.32/createos-darwin-arm64"
-      sha256 "2453082569662b015c0fd9bce62fc7fac4702e1b361996b4a2112ff9d47626f7"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.33/createos-darwin-arm64"
+      sha256 "def6b577fbefc1e524c16d95a0f5b54e7f355f9a2afd7fca5b3d89cfd0ee57b9"
     end
 
     on_intel do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.32/createos-darwin-amd64"
-      sha256 "027fc79225fb383363f9fa0ab23b742fd61387bfb9a95cd549139fb8c57e8a64"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.33/createos-darwin-amd64"
+      sha256 "19ee964f8aaf3bf5f88fe2821b6d23caec6dac93c7204859b99a099f502b2221"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.32/createos-linux-arm64"
-      sha256 "f4f3e93dd856151d8c96ae3f404205b52afec3f11c5676404512670cbf5bd975"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.33/createos-linux-arm64"
+      sha256 "13d3f5c9fa0c5574a81c5eeab318421cccf0f011c9cf9cd7604656ef9e475c64"
     end
 
     on_intel do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.32/createos-linux-amd64"
-      sha256 "0bb45a7e71ed01ee4694c3682a581e8cfbf60382177fa5109cd59a4294949e2d"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.33/createos-linux-amd64"
+      sha256 "08cf469f208ad7ce6e869b699184730c7b086b0630d112bc35bfbe3b999e71b5"
     end
   end
 
