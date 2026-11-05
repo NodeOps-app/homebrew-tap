@@ -1,30 +1,30 @@
 class Createos < Formula
   desc "CreateOS CLI - Manage your infrastructure"
   homepage "https://github.com/NodeOps-app/createos-cli"
-  version "0.0.35"
+  version "0.0.36"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.35/createos-darwin-arm64"
-      sha256 "e8f974140772f9bf1874e94c8b741b258d95d236bf9f973ebbd84e502370dc36"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.36/createos-darwin-arm64"
+      sha256 "b871da38dea21ee3ea949a7ff06335477e26b02fc603b6437dd7709c68ae6c78"
     end
 
     on_intel do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.35/createos-darwin-amd64"
-      sha256 "770fa45d5ee1dedfab124e3b999a5d23c3cc2974d8ce245a41e90a3d479f1f30"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.36/createos-darwin-amd64"
+      sha256 "0320897380ac3b74ce2705d0c74b9c13bb031ae9cb94f1f43a318f3a3fd65e99"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.35/createos-linux-arm64"
-      sha256 "e4387a6dc47ec12b663f8f488ffde1819dd711815fe72fc1231fc3c50bff1595"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.36/createos-linux-arm64"
+      sha256 "2fca084014997b00721289bb908af9db8cd06524c1a8d09cd7cc9e0ed9bcd6ee"
     end
 
     on_intel do
-      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.35/createos-linux-amd64"
-      sha256 "61a2845b9908c0f7d730fa3cadfae196808d2af0eee9cfae0a741bfb7ebcfb2e"
+      url "https://github.com/NodeOps-app/createos-cli/releases/download/v0.0.36/createos-linux-amd64"
+      sha256 "66d43bd66e639780d694e077b07d9e57a4a41626b6278a961c77ce10d7e49273"
     end
   end
 
